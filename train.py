@@ -2,7 +2,7 @@ import torch
 import argparse
 import random
 import numpy as np 
-import torch.nn as nn
+import torch.nn as nn 
 import torch.distributed as dist
 from torch.optim import *
 import torch.nn.functional as f
