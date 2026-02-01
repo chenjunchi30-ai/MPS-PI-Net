@@ -12,9 +12,6 @@ Motion-Guided Prior Support and Polarity Interaction for Event Stream Super-Reso
 ## Dataset
 Please follow the instructions from directory `generate_dataset` to prepare the synthetic and real-world dataset.
 
-## Pretrained model
-
-Some pretrained model are in the `pretrain` folder.
 
 ## Training and Inference
 
