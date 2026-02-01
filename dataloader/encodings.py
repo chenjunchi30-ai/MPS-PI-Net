@@ -3,7 +3,7 @@ import torch
 from multiprocessing import Pool
 
 
-def interpolate_to_image(pxs, pys, dxs, dys, weights, img):
+def interpolate_to_image(pxs, pys, dxs, dys, weights, img)：
     """
     Accumulate x and y coords to an image using bilinear interpolation
     """
