@@ -77,11 +77,10 @@ def make_layer(block, n_layers):
     for _ in range(n_layers):
         layers.append(block())
     else:
-        return (nn.Sequential)(*layers)
+        return nn.Sequential(*layers)
 
 
 class ResidualBlock_noBN(nn.Module):
-    __doc__ = "Residual block w/o BN\n    ---Conv-ReLU-Conv-+-\n     |________________|\n    "
 
     def __init__(self, nf=64):
         super(ResidualBlock_noBN, self).__init__()
